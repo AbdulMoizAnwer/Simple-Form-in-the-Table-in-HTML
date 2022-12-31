@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in Table</title>
+</head>
+
+<body>
+    <table border="2px" cellspacing="0px" cellpadding="15px">
+        <form action="">
+            <tr>
+                <td><label for="">First Name</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Last Name</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td><input type="radio" name="myGender">Male<input type="radio" name="myGender">Female</td>
+            </tr>
+            <tr>
+                <td><label for="">Qualification</label></td>
+                <td><select name="" id="">
+                        <option value="">Matriculation</option>
+                        <option value="">Intermediate</option>
+                        <option value="">Bachelors</option>
+                        <option value="">Masters</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="">Hobbies</label></td>
+                <td><input type="checkbox">Music<input type="checkbox">Shopping<input type="checkbox">Reading<input
+                        type="checkbox">Travel</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center><button type="submit">Submit</button>&nbsp;<button type="reset">Reset</button></center>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
